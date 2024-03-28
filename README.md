@@ -8,26 +8,6 @@ composer require flyaction/thinkphp-model-doc
 ```
 ---
 
-## 初始化
-### 修改配置 *config/console.php* 文件
-
----
-```php
-<?php
-// +----------------------------------------------------------------------
-// | 控制台配置
-// +----------------------------------------------------------------------
-return [
-    // 指令定义
-    'commands' => [
-        'modelDoc' => 'flyaction\think\command\modelDoc', // 生成model注释
-    ],
-];
-
-
-```
----
-
 ## 使用方法
 
 
