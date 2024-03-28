@@ -9,7 +9,7 @@ class Service extends \think\Service
     {
 
         $this->commands([
-            'modelDoc' => '\\flyaction\\think\\command\\model',
+            'modelDoc' => '\\flyaction\\think\\model\\command\\ModelDoc',
         ]);
 
     }
