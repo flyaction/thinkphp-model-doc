@@ -12,7 +12,7 @@ use think\console\Output;
  * Class ModelDoc
  * @package doc
  */
-class ModelProperty extends Command
+class ModelDoc extends Command
 {
     private $depth = 5;
 
