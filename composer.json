@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "flyaction\\think\\command\\": "src"
+            "flyaction\\think\\command\\model\\": "src"
         }
     },
     "extra": {

@@ -5,11 +5,11 @@ namespace flyaction\think;
 
 class Service extends \think\Service
 {
-    public function boot()
+    public function register()
     {
 
         $this->commands([
-            'modelDoc' => command\ModelDoc::class
+            'modelDoc' => '\\flyaction\\think\\command\\model',
         ]);
 
     }
