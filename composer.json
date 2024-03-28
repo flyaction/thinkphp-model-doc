@@ -19,5 +19,5 @@
         }
     },
     "minimum-stability": "stable",
-    "keywords": ["thinkphp8","thinkphp composer组件扩展包","thinkphp8 阿里云 oss","thinkphp aliyun oss","aliyun oss"]
+    "keywords": ["thinkphp","thinkphp composer model注释"]
 }
