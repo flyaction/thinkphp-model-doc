@@ -21,7 +21,7 @@ class ModelDoc extends Command
     protected function configure()
     {
         // 指令配置
-        $this->setName('model_doc')
+        $this->setName('modelDoc')
             ->addOption('path', 'p', Option::VALUE_REQUIRED, '模型目录', null)
             ->addOption('models', 'm', Option::VALUE_REQUIRED, '模型名称', null)
             ->setDescription('批量插入模型类注释');
