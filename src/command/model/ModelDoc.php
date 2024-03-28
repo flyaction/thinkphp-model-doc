@@ -227,6 +227,7 @@ class ModelDoc extends Command
      */
     public function getRootPath($path = __DIR__): string
     {
+        $path = str_replace('/vendor/flyaction/thinkphp-model-doc/src/command/model','',$path);
         $think = $path . '/think';
         if (!is_file($think)) {
             if ($this->depth > 0) {
