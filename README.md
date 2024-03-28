@@ -20,7 +20,7 @@ composer require flyaction/thinkphp-model-doc
 return [
     // 指令定义
     'commands' => [
-        'modelDoc' => 'app\command\modelDoc', // 生成model注释
+        'modelDoc' => 'flyaction\command\modelDoc', // 生成model注释
     ],
 ];
 
