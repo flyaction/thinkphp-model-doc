@@ -1,7 +1,7 @@
 <?php
 
 
-namespace flyaction\command;
+namespace flyaction\think\command;
 
 use think\console\Command;
 use think\console\Input;

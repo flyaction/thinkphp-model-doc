@@ -15,7 +15,14 @@
     },
     "autoload": {
         "psr-4": {
-            "flyaction\\command\\": "src"
+            "flyaction\\think\\command\\": "src"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "flyaction\\think\\Service"
+            ]
         }
     },
     "minimum-stability": "stable",

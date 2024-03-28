@@ -20,7 +20,7 @@ composer require flyaction/thinkphp-model-doc
 return [
     // 指令定义
     'commands' => [
-        'modelDoc' => 'flyaction\command\modelDoc', // 生成model注释
+        'modelDoc' => 'flyaction\think\command\modelDoc', // 生成model注释
     ],
 ];
 
@@ -33,7 +33,7 @@ return [
 
 ---
 ```php 
-php think model_doc
+php think modelDoc
 ```
 ---
 
@@ -41,7 +41,7 @@ php think model_doc
 
 ```php 
 # 修改common目录下的所有模型 
-php think model_doc -p common 
+php think modelDoc -p common 
 # 修改common目录下的User模型 
-php think insert_model_doc -p common -m User
+php think modelDoc -p common -m User
 ```
